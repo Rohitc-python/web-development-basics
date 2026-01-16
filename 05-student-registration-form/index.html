@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Form</title>
+    <style>
+        #main {
+            background-color: black;
+            color: white;
+            display: block;
+            margin: auto;
+            border: 3px solid grey;
+            width: 435px;
+            height: 550px;
+            border-radius: 10px;
+        }
+
+        .form {
+            padding-left: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: lighter;
+
+        }
+
+        #form1 {
+            border-radius: 5px;
+            width: 400px;
+            height: 80px;
+        }
+
+        input {
+            padding-left: 5px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        h2 {
+            float: right;
+            text-decoration: underline;
+            font-style: italic;
+            padding-bottom: 5px;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: yellow;
+            font-weight: bold;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: orange;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="main">
+        <h1>Student Form</h1>
+        <div class="form">
+            <form action="backend">
+                <div>
+                    Name: <input type="text">
+                </div>
+                <div>
+                    Fater's Name: <input type="text">
+                </div>
+                <div>
+                    Mother's Name: <input type="text">
+                </div>
+                <div>
+                    Date of Birth: <input type="date">
+                </div>
+                <div>
+                    Mobile NO: <input type="tel">
+                </div>
+                <div>
+                    Email: <input type="email">
+                </div>
+                <div>
+                    Address: <input type="text">
+                </div>
+                <div>
+                    Gender: <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+                <br>
+                <div>
+                    About Student:-
+                    <input type="text" id="form1">
+                </div>
+                <h2>THANK YOU-</h2>
+
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

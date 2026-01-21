@@ -32,7 +32,7 @@ This project is very useful for beginners to understand basic layout concept.
 ---
 
 ## Output
-This leyout is created using table-style structure for practice purpose.
+This layout is created using table-style structure for practice purpose.
 
 ---
 ## Author

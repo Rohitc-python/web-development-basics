@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout-Design</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 1rem;
+            grid-template-areas:
+            'headline headline headline' 
+            'nav aside section'
+            'footer footer footer';
+        }
+        .item{
+            border: 3px solid  rgb(63, 62, 62);
+            border-radius: 5px;
+            background-color: rgb(76, 76, 236);
+            text-align: center;
+            padding: 5px;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #nav{
+            grid-area: nav;
+        }
+        #headline{
+            grid-area: headline;
+        }
+        footer{
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="headline" class="item"><h1>Today i made this layout table</h1></div>
+        <div id="nav" class="item">Lorem ipsum dolor sit amet consectetur,Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus itaque perferendis ducimus eos eligendi odit optio? Magnam voluptate animi harum. Voluptas consequatur alias aperiam officia in dolorum aspernatur earum unde cumque! Distinctio dolor ex facere error architecto similique dolorum, et ducimus, voluptatibus corporis a nisi? Dicta consequatur numquam dignissimos consequuntur. adipisicing elit. Iure, delectus sed Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quidem inventore nesciunt deserunt assumenda non minima perspiciatis. Dolores voluptates aut, hic rem consectetur recusandae magni enim doloribus similique laudantium dolorem odit deleniti eveniet eaque porro debitis illo numquam aperiam voluptate explicabo nemo impedit vitae. Quae sequi molestiae doloribus dolores perspiciatis earum labore providquibusdam possimus tempore. Dolores ea quaerat, est saepe ducimus architecto magnam aut doloremque quisquam ipsum. suscipit voluptate veniam tempore nulla natus commodi modi omnis.</div>
+        <div id="aside" class="item">Lorem ipsum dolor sit, amet consectetur  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, qui! Distinctio corporis aperiam iste adipisci eos nostrum dicta modi voluptatum libero obcaecati rem fugiat id sunt tempora aut optio voluptas, asperiores placeat molestias quas commodi sint. Vel consequuntur dolorum praesentium recusandae ea ad, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quo impedit dicta, iusto, nisi maxime nostrum, maiores dolore quis eos quasi! Pariatur, quaerat consequatur reprehenderit dignissimos voluptas laborum alias similique laboriosam corrupti quia deserunt? Delectus officia quidem necessitatibus mollitia asperiores ipsa fuga ipsum ex ab eveniet modi expedita repudiandae, minima amet, architecto incidunt sed vm labore rerum doloribus aperiam ullam! id facilis fuga impedit dignissimos ullam aut.adipisicing elit. Nostrum modi minus quos dolorem, expedita, perferendis ducimus quo quas voluptatibus error labore rem voluptatum adipisci. Molestias reprehenderit aperiam fuga libero ipsum.</div>
+        <div id="section" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatem quis, quia, consectetur quas labore in ullam ipsam, laboriosam  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellendus aliquam rem cum quae nihil nisi ipsam hic saepe necessitatibus iste eveniet molestiae quasi, corporis deleniti numquam? Quibusdam sapiente ipsam voluptate libero vel laboriosam dolore numquam odio accusamus atque doloremque eius culpa quod sunt corrupti totam voluptas veritatis, aut velit ab, veniam sed laborum! Explicabo dolore iusto maxime ratione. Dolores nostrum nam tempora quas modi iste, doloremque, natus accusantium iusto atque fugiat distinctio, quos necessitatibus velit aspernatur. A illo veniam temporibus numquam voluptatibus architecugit natus laborum itaque pariatur, maxime a ducimus eos nam exercitationem temporibus? Quasi cum voluptas suscipit molestias quis aperiam qui, tenetur molestiae reiciendis animi pariatur doloremque a ducimus possimus ullam quibusdam eum numquam quod id ut! veniam repellat eos dicta sint? Dolore voluptatem possimus quis adipisci similique.</div>
+        <footer class="item"><h2>Thanks for watching my folder. </h2></footer>
+    </div>
+</body>
+</html>

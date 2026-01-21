@@ -8,7 +8,7 @@ This project is very useful for beginners to understand basic layout concept.
  the structure of webpage easily.  
  ---
  
-##Features 
+## Features 
 - Simple layout design  (Beginner level)
 - Devided into three parts
     - Header

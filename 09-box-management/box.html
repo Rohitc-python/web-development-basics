@@ -1,0 +1,67 @@
+7
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            border: 6px rgb(232, 206, 6);
+            border-radius: 15px;
+            gap: 20px;
+            padding: 20px;
+            background-color: grey;
+        }
+
+        .card {
+            border-radius: 15px;
+            background-color: rgb(240, 10, 10);
+            box-shadow:inset 0px 0px 15px rgb(14, 14, 14);           
+            color: white;
+            text-align: center;
+            padding: 15px;
+
+        }
+        @media(max-width:599px){
+            .card{
+                flex: 1 1 100%;
+                min-height: 50px;
+            }
+        }
+        @media(min-width:600px) and (max-width:899px){
+            .card{
+                flex: 1 1 35%;
+                height: 100px;
+            }
+        }
+        @media(min-width:900px){
+            .card{
+                flex: 1 1 18%;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id ="cards">
+        <div class="card">CARD-01</div>
+        <div class="card">CARD-02</div>
+        <div class="card">CARD-03</div>
+        <div class="card">CARD-04</div>
+        <div class="card">CARD-05</div>
+        <div class="card">CARD-06</div>
+        <div class="card">CARD-07</div>
+        <div class="card">CARD-08</div>
+        <div class="card">CARD-09</div>
+        <div class="card">CARD-010</div>
+    </div>
+</body>
+
+</html>
